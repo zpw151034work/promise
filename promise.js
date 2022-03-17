@@ -5,7 +5,7 @@ class  JJPromise {
       status= PENGING;
       result = undefined;
       reason = undefined;
-  constructor (excution){
+     constructor (excution){
     
       const resolve = (result)=>{
        if(this.status ===PENGING){
